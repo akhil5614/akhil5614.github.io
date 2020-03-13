@@ -39,21 +39,31 @@
     <header class="site-navbar mt-3" id="top">
       <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="site-logo col-6"><a href="index.html">AeroUnwired</a></div>
-
-
-          
+          <div class="site-logo col-6">
+            <a href="index.html">AeroUnwired</a>
+          </div>
 
           <nav class="mx-auto site-navigation">
             <ul class="site-menu js-clone-nav d-none d-lg-block">
-              <li><a href="index.html" class="nav-link active">Home</a></li>
+              <li><a href="index.html" class="nav-link">Home</a></li>
               <li><a href="about.html">About</a></li>
-              <li><a href="projects.html">Projects</a></li>
+              <li class="has-children">
+                <a href="projects.html" class="active">Projects</a>
+                <ul class="dropdown">
+                  <li><a href="drone.html" class="active">Drone</a></li>
+                  <li><a href="projects-single.html">Service Single</a></li>
+                  <li><a href="projects-single.html">Blog Single</a></li>
+                  <li><a href="projects-single.html">Portfolio Single</a></li>
+                  <li><a href="projects-single.html">Testimonials</a></li>
+                  <li><a href="projects-single.html">Frequently Ask Questions</a></li>
+                  <li><a href="projects-single.html">Gallery</a></li>
+                </ul>
+              </li>
               <li><a href="gallery.html">Gallery</a></li>
               <li><a href="alumni.html">Alumni</a></li>
               <li><a href="events.html">Events</a></li>
               <li><a href="contact.html">Contact</a></li>
-            </ul>
+              </ul>
           </nav>
           
           <div class="col-6 site-burger-menu d-block d-lg-none text-right">
@@ -82,7 +92,7 @@
       <!-- VIDEO -->
       <div class="video-container">
         <video autoplay loop="true">
-          <source type="video/mp4" src="videos/video.mp4">
+          <source type="video/mp4" src="https://res.cloudinary.com/rougerobot/video/upload/v1584025879/video_fgqdad.mp4">
         </video>
       </div>
 
@@ -163,7 +173,7 @@
         <div class="row">
           <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
 
-            <a href="project-single.html" class="block__16443 text-center d-block">
+            <a href="drone.html" class="block__16443 text-center d-block">
               <span class="custom-icon mx-auto"><span class="icon-line-tools d-block"></span></span>
               <h3>Drone</h3>
               <p>Surveillance</p>
@@ -172,7 +182,7 @@
           </div>
           <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
             
-            <a href="project-single.html" class="block__16443 text-center d-block">
+            <a href="projects-single.html" class="block__16443 text-center d-block">
               <span class="custom-icon mx-auto"><span class="icon-line-lightbulb d-block"></span></span>
               <h3>Thrust Vectoring</h3>
               <p>Efficient manuverability</p>
@@ -181,7 +191,7 @@
           </div>
           <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
             
-            <a href="project-single.html" class="block__16443 text-center d-block">
+            <a href="projects-single.html" class="block__16443 text-center d-block">
               <span class="custom-icon mx-auto"><span class="icon-line-laptop d-block"></span></span>
               <h3>Rocket Aerodynamics</h3>
               <p>Fin Stabilization</p>
@@ -190,7 +200,7 @@
           </div>
           <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
             
-            <a href="project-single.html" class="block__16443 text-center d-block">
+            <a href="projects-single.html" class="block__16443 text-center d-block">
               <span class="custom-icon mx-auto"><span class="icon-line-search d-block"></span></span>
               <h3>Vtol</h3>
               <p>Faster take-off and landing</p>
@@ -199,7 +209,7 @@
           </div>
           <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
             
-            <a href="project-single.html" class="block__16443 text-center d-block">
+            <a href="projects-single.html" class="block__16443 text-center d-block">
               <span class="custom-icon mx-auto"><span class="icon-line-presentation d-block"></span></span>
               <h3>HoverCraft </h3>
               <p>Hover in Style</p>
@@ -208,7 +218,7 @@
           </div>
           <div class="col-6 col-md-6 col-lg-4 mb-4 mb-lg-5">
             
-            <a href="project-single.html" class="block__16443 text-center d-block">
+            <a href="projects-single.html" class="block__16443 text-center d-block">
               <span class="custom-icon mx-auto"><span class="icon-line-ribbon d-block"></span></span>
               <h3>Ornithopter</h3>
               <p class="d-sm-block">Nature's Gifts</p>
@@ -219,7 +229,7 @@
 
         <div class="row">
           <div class="col-12 text-center">
-            <a href="portfolio.html" class="btn btn-primary btn-md">View All Projects</a>
+            <a href="projects.html" class="btn btn-primary btn-md">View All Projects</a>
           </div>
         </div>
       </div>
@@ -253,20 +263,20 @@
         
         <div id="posts" class="row no-gutter">
           <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="portfolio-single.html" class="item-wrap">
+            <a href="projects-single.html" class="item-wrap">
               <span class="icon-add"></span>
               <img class="img-fluid" src="images/sq_img_1.jpg">
             </a>
           </div>
           <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="portfolio-single.html" class="item-wrap">
+            <a href="projects-single.html" class="item-wrap">
               <span class="icon-add"></span>
               <img class="img-fluid" src="images/sq_img_2.jpg">
             </a>
           </div>
 
           <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="portfolio-single.html" class="item-wrap">
+            <a href="projects-single.html" class="item-wrap">
               <span class="icon-add"></span>
               <img class="img-fluid" src="images/sq_img_3.jpg">
             </a>
@@ -274,7 +284,7 @@
 
           <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
 
-            <a href="portfolio-single.html" class="item-wrap">
+            <a href="projects-single.html" class="item-wrap">
               <span class="icon-add"></span>
               <img class="img-fluid" src="images/sq_img_4.jpg">
             </a>
@@ -282,56 +292,56 @@
           </div>
 
           <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="portfolio-single.html" class="item-wrap">
+            <a href="projects-single.html" class="item-wrap">
               <span class="icon-add"></span>
               <img class="img-fluid" src="images/sq_img_5.jpg">
             </a>
           </div>
 
           <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="portfolio-single.html" class="item-wrap">
+            <a href="projects-single.html" class="item-wrap">
               <span class="icon-add"></span>
               <img class="img-fluid" src="images/sq_img_6.jpg">
             </a>
           </div>
 
           <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="portfolio-single.html" class="item-wrap">
+            <a href="projects-single.html" class="item-wrap">
               <span class="icon-add"></span>
               <img class="img-fluid" src="images/sq_img_7.jpg">
             </a>
           </div>
 
           <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="portfolio-single.html" class="item-wrap">
+            <a href="projects-single.html" class="item-wrap">
               <span class="icon-add"></span>
               <img class="img-fluid" src="images/sq_img_8.jpg">
             </a>
           </div>
 
           <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="portfolio-single.html" class="item-wrap">
+            <a href="projects-single.html" class="item-wrap">
               <span class="icon-add"></span>
               <img class="img-fluid" src="images/sq_img_9.jpg">
             </a>
           </div>
 
           <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="portfolio-single.html" class="item-wrap">
+            <a href="projects-single.html" class="item-wrap">
               <span class="icon-add"></span>
               <img class="img-fluid" src="images/sq_img_10.jpg">
             </a>
           </div>
 
           <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="portfolio-single.html" class="item-wrap">
+            <a href="projects-single.html" class="item-wrap">
               <span class="icon-add"></span>
               <img class="img-fluid" src="images/sq_img_11.jpg">
             </a>
           </div>
 
           <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="portfolio-single.html" class="item-wrap">
+            <a href="projects-single.html" class="item-wrap">
               <span class="icon-add"></span>
               <img class="img-fluid" src="images/sq_img_12.jpg">
             </a>
@@ -443,36 +453,24 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-6 col-md-3 mb-4 mb-md-0">
-            <h3>Scenic Products</h3>
-            <ul class="list-unstyled">
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Graphic Design</a></li>
-              <li><a href="#">Web Developers</a></li>
-              <li><a href="#">Resources</a></li>
-            </ul>
+            <h3>Address</h3>
+           <ul>AeroUnwired</ul>
+           <ul>National Institue of Technology, Calicut, Kattangal, Kerala, India</ul>
+           <ul>PIN - 673601</ul>
           </div>
+          
           <div class="col-6 col-md-3 mb-4 mb-md-0">
-            <h3>Company</h3>
-            <ul class="list-unstyled">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Career</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Resources</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-md-3 mb-4 mb-md-0">
-            <h3>Support</h3>
-            <ul class="list-unstyled">
-              <li><a href="#">Support</a></li>
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">Terms of Service</a></li>
-            </ul>
+            <h3>Faculty Advisor</h3>
+            <ul>C/O Mr. Sreenath A M / Dr. T J S JYOTHI</ul>
+            <ul>Assistant Professor | Faculty Advisor
+              Mechanical Engineering Department,
+              NIT-Calicut, Kozhikode, PIN: 673601</ul>
           </div>
           <div class="col-6 col-md-3 mb-4 mb-md-0">
             <h3>Contact Us</h3>
             <div class="footer-social">
               <a href="https://www.facebook.com/UnwiredAeroNitCalicut"><span class="icon-facebook"></span></a>
-              <a href="https://www.youtube.com/channel/UCjcbbcK1VAgwusNnKY3JDrQ"><span class="icon-twitter"></span></a>
+              <a href="https://www.youtube.com/channel/UCjcbbcK1VAgwusNnKY3JDrQ"><span class="icon-youtube"></span></a>
               <a href="https://www.instagram.com/club_aerounwired/"><span class="icon-instagram"></span></a>
               <a href="https://www.linkedin.com/company/aerounwired/"><span class="icon-linkedin"></span></a>
             </div>
