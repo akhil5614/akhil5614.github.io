@@ -7,7 +7,7 @@
   .site-navbar .container-fluid {
     padding-left: 7rem;
     padding-right: 7rem; }
-    @media (max-width: 100%) {
+    @media (max-width: 1199.98px) {
       .site-navbar .container-fluid {
         padding-left: 15px;
         padding-right: 15px; } }
@@ -25,7 +25,7 @@
         text-decoration: none; }
   .site-navbar .site-burger-menu {
     position: absolute; }
-    @media (max-width: 100%) {
+    @media (max-width: 1199.98px) {
       .site-navbar .site-burger-menu {
         position: relative; } }
   .site-navbar .site-menu-toggle {
