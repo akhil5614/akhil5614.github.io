@@ -3,7 +3,7 @@
   margin-bottom: 0px;
   z-index: 1999;
   position: absolute;
-  width: 100%; }
+  max-width: 100%; }
   .site-navbar .container-fluid {
     padding-left: 7rem;
     padding-right: 7rem; }
@@ -13,7 +13,7 @@
         padding-right: 15px; } }
   .site-navbar .site-logo {
     position: absolute; }
-    @media (max-width: 991.98px) {
+    @media (max-width: 100%) {
       .site-navbar .site-logo {
         position: relative; } }
     .site-navbar .site-logo a {
@@ -906,7 +906,7 @@ h1, h2, h3, h4 {
   position: relative;
   background: #001f42;
   margin-top: 10rem; }
-  @media (max-width: 991.98px) {
+  @media (max-width: 100%) {
     .site-footer {
       padding: 2rem 0; } }
   .site-footer.slanted-footer:before {
