@@ -13,7 +13,7 @@
         padding-right: 15px; } }
   .site-navbar .site-logo {
     position: absolute; }
-    @media (max-width: 100%) {
+    @media (max-width: 991.98px) {
       .site-navbar .site-logo {
         position: relative; } }
     .site-navbar .site-logo a {
